@@ -275,7 +275,6 @@ const Resume = () => {
           </div>
         </Tabs>
       </div>
-      resume page
     </motion.div>
   );
 };

@@ -25,10 +25,17 @@ const page = () => {
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
+              {/* Download CV */}
+              <a
+                href="/public/assets/Curriculum Vitae William Purba.pdf"
+                download="Curriculum Vitae William Purba.pdf"
+                className="uppercase flex items-center gap-2"
+              ></a>
               <Button
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
+                href="/public/assets/Curriculum Vitae William Purba.pdf"
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />

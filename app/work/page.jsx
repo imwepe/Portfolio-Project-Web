@@ -27,8 +27,8 @@ const projects = [
     description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/web kopiitime.png",
-    live: "",
-    github: "",
+    live: "https://imwepe.github.io/kedai-kopii-time/",
+    github: "https://imwepe.github.io/kedai-kopii-time/",
   },
   {
     num: "02",
@@ -42,8 +42,8 @@ const projects = [
       { name: "React.js" },
     ],
     image: "/assets/work/nusafood.png",
-    live: "",
-    github: "",
+    live: "https://nusafoodwebsite.vercel.app/",
+    github: "https://imwepe.github.io/nusafood-UAS-Project/",
   },
   {
     num: "03",
@@ -56,8 +56,8 @@ const projects = [
       { name: "Tailwind.css" },
     ],
     image: "/assets/work/portoproject.png",
-    live: "",
-    github: "",
+    live: "https://portfolio-project-web.vercel.app/",
+    github: "https://imwepe.github.io/Portfolio-Project-Web/",
   },
 ];
 
