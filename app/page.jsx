@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -7,6 +9,15 @@ import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
 const page = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/Curriculum_Vitae_William_Purba.pdf";
+    link.download = "CV William Purba.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -27,15 +38,15 @@ const page = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               {/* Download CV */}
               <a
-                href="/assets/Curriculum Vitae William Purba.pdf"
-                download="Curriculum Vitae William Purba.pdf"
+                href="/assets/Curriculum_Vitae_William_Purba.pdf"
+                download="CV William Purba.pdf"
                 className="uppercase flex items-center gap-2"
               ></a>
               <Button
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
-                href="/assets/Curriculum Vitae William Purba.pdf"
+                onClick={handleDownload}
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
