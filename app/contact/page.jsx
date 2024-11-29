@@ -106,9 +106,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl onSubmit={handleSubmit}">
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-                est autem labore voluptatibus dolorem fuga explicabo non dolore,
-                eaque saepe vero assumenda? Exercitationem, nesciunt.
+                If you have any question, let me know by submit this form below!
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

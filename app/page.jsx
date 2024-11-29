@@ -11,7 +11,7 @@ import Stats from "@/components/Stats";
 const page = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/Curriculum_Vitae_William_Purba.pdf";
+    link.href = "/assets/William Purba-resume.pdf";
     link.download = "CV William Purba.pdf";
     document.body.appendChild(link);
     link.click();
@@ -38,7 +38,7 @@ const page = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               {/* Download CV */}
               <a
-                href="/assets/Curriculum_Vitae_William_Purba.pdf"
+                href="/assets/William Purba-resume.pdf"
                 download="CV William Purba.pdf"
                 className="uppercase flex items-center gap-2"
               ></a>

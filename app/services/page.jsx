@@ -7,25 +7,29 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    description:
+      "I have experienced in website development using HTML, CSS, JS, React, and Next.",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    description:
+      "I have experienced in designing responsive and interactive UI/UX using Figma.",
     href: "",
   },
   {
     num: "03",
     title: "Mobile App Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    description:
+      "I am currently learning and making an android app using Java and Kotlin.",
     href: "",
   },
   {
     num: "04",
     title: "Cybersecurity: Cloud",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    description:
+      "I am currently learning about cybersecurity and doing some vulntest and detection.",
     href: "",
   },
 ];

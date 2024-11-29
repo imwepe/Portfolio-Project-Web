@@ -24,7 +24,8 @@ const projects = [
     num: "01",
     category: "frontend",
     title: "project 1",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    description:
+      "Created a simple project website with simple HTML, CSS, and JavaScript structure.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/web kopiitime.png",
     live: "https://imwepe.github.io/kedai-kopii-time/",
@@ -34,7 +35,8 @@ const projects = [
     num: "02",
     category: "frontend",
     title: "project 2",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    description:
+      "Made an Indonesian Food encyclopedia with React and adding animation.",
     stack: [
       { name: "Html 5 " },
       { name: "Css 3" },
@@ -49,7 +51,7 @@ const projects = [
     num: "03",
     category: "frontend",
     title: "project 2",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    description: "Made a Portfolio Website.",
     stack: [
       { name: "React.js" },
       { name: "Next.js" },
