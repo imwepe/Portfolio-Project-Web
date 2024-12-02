@@ -25,14 +25,16 @@ const page = () => {
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">
-              Software Developer | Cybersecurity Enthusiast
+              Software Developer | Front-End Dev | Cybersecurity Enthusiast
             </span>
             <h1 className="h1 mb-6">
-              Hi I'm <br /> <span className="text-accent ">William Purba</span>
+              Hello I'm <br />{" "}
+              <span className="text-accent ">William Purba</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
+              I excel at crafting elegant digital experiences and I am a
+              passionate learner in various programming language and enthusiast
+              for new technologies.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
