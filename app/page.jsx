@@ -11,7 +11,7 @@ import Stats from "@/components/Stats";
 const page = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/William Purba-resume.pdf";
+    link.href = "/assets/William Purba-CV.pdf";
     link.download = "CV William Purba.pdf";
     document.body.appendChild(link);
     link.click();
